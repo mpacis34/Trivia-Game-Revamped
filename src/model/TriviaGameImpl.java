@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+/**
+ * Represents an implementation of the model for Trivia Game.
+ */
 public class TriviaGameImpl implements TriviaGame {
 
   private int currentScore;

@@ -34,8 +34,9 @@ public class TriviaGameGUIViewImpl extends JFrame implements TriviaGameGUIView {
 
   private JTextField inputAnswer;
 
-  // constructor with all JFrame and components
-  // need to compose a model since it needs its data
+  /**
+   * Constructor for the GUI view of Trivia Game.
+   */
   public TriviaGameGUIViewImpl() {
     super();
 
