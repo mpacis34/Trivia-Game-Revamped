@@ -13,8 +13,15 @@ import view.TriviaGameGUIViewImpl;
 import view.TriviaGameTextView;
 import view.TriviaGameView;
 
+/**
+ * The main class where the Trivia Game can be played.
+ */
 public class TriviaGameMain {
 
+  /**
+   * The main method for the trivia game.
+   * @param args representing an array of command line arguments
+   */
   public static void main(String[] args) {
 
     // text version of the Trivia Game
@@ -34,6 +41,9 @@ public class TriviaGameMain {
       TriviaGameController controller = new TriviaGameGUIControllerImpl(game, view, features);
       features.setController((TriviaGameGUIController) controller);
       controller.execute();
+    }
+    else {
+      System.out.print("An error has occurred. Please enter -text or no arguments.");
     }
   }
 
