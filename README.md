@@ -10,7 +10,7 @@ Questions have varying amount of points, with the right-child questions being wo
 If a user answers a question correctly, they will earn the amount of points that the question that they answered correctly is worth.
 For example, if a user answers all 5 questions correctly, they will receive the highest score of 15 points (1 + 2 + 3 + 4 + 5).
 The lowest possible score that can be obtained is 0 by answering all given questions incorrectly.
-The program can either run the game in a text-based view utilizing the command line  or with an interactive GUI.
+The program can either run the game in a text-based view utilizing the command line  or with an interactive GUI that was built using Java Swing.
 The program was created following the model-view-controller architecture to isolate the separate aspects of the program and to reduce coupling.
 
 
