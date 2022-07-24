@@ -94,7 +94,7 @@ public class TriviaGameImpl implements TriviaGame {
   private void addLevels() {
     // add three levels and put the starting Question in the arraylist
 
-    Question LevelOne31 = new QuestionNode("Seoul is the capital of North Korea.", "false", 5, null, null);
+    Question LevelOne31 = new QuestionNode("Seoul is the capital of North Korea (true/false).", "false", 5, null, null);
     Question LevelOne30 = new QuestionNode("Asia is the largest continent in the world.", "true", 1, null, null);
     Question LevelOne29 = new QuestionNode("Are the five rings on the Olympic flag are interlocking?", "true", 2, null, null);
     Question LevelOne28 = new QuestionNode("Is Mexico south of the United States?", "true", 1, null, null);
@@ -110,7 +110,7 @@ public class TriviaGameImpl implements TriviaGame {
     Question LevelOne18 = new QuestionNode("There are seven continents on Earth", "true", 1, null, null);
     Question LevelOne17 = new QuestionNode("Thor was the son of the God, Odin", "true", 2, null, null);
     Question LevelOne16 = new QuestionNode("Apples are a fruit", "true", 1, null, null);
-    Question LevelOne15 = new QuestionNode("Fruits typically have seeds", "true", 4, LevelOne30, LevelOne31);
+    Question LevelOne15 = new QuestionNode("Fruits typically have seeds (true/false)", "true", 4, LevelOne30, LevelOne31);
     Question LevelOne14 = new QuestionNode("French fries came from France", "false", 1, LevelOne28, LevelOne29);
     Question LevelOne13 = new QuestionNode("Male seahorses give birth", "true", 2, LevelOne26, LevelOne27);
     Question LevelOne12 = new QuestionNode("Barack Obama was the 33rd US president", "false", 1, LevelOne24, LevelOne25);
@@ -118,13 +118,13 @@ public class TriviaGameImpl implements TriviaGame {
     Question LevelOne10 = new QuestionNode("Canada is South of the United States", "false", 1, LevelOne20, LevelOne21);
     Question LevelOne9 = new QuestionNode("Shakespeare wrote plays", "true", 2, LevelOne18, LevelOne19);
     Question LevelOne8 = new QuestionNode("Soccer is played in the Olympics", "true", 1, LevelOne16, LevelOne17);
-    Question LevelOne7 = new QuestionNode("Hockey finals in America is the Super Bowl", "false", 3, LevelOne14, LevelOne15);
+    Question LevelOne7 = new QuestionNode("Hockey finals in America is the Super Bowl (true/false)", "false", 3, LevelOne14, LevelOne15);
     Question LevelOne6 = new QuestionNode("Football finals in America is the Super Bowl", "true", 1, LevelOne12, LevelOne13);
     Question LevelOne5 = new QuestionNode("There are 6 planets in our Solar System", "false", 2, LevelOne10, LevelOne11);
     Question LevelOne4 = new QuestionNode("Iron Man is a Marvel movie", "true", 1, LevelOne8, LevelOne9);
-    Question LevelOne3 = new QuestionNode("Does a cat have 4 legs?", "true", 2, LevelOne6, LevelOne7);
+    Question LevelOne3 = new QuestionNode("A cat has four legs(true/false)", "true", 2, LevelOne6, LevelOne7);
     Question LevelOne2 = new QuestionNode("Does a penguin have 4 legs?", "false", 1, LevelOne4, LevelOne5);
-    Question LevelOneRoot = new QuestionNode("Does a dog have 4 legs?", "true", 1, LevelOne2, LevelOne3);
+    Question LevelOneRoot = new QuestionNode("A dog has four legs(true/false).", "true", 1, LevelOne2, LevelOne3);
     this.levels.add(LevelOneRoot);
 
     Question LevelTwo31 = new QuestionNode("Bull snakes are venomous", "false", 5, null, null);
@@ -199,7 +199,7 @@ public class TriviaGameImpl implements TriviaGame {
     Question LevelFour28 = new QuestionNode("Tweedledee and Tweedledum are characters in the book Alice in Wonderland", "true", 1, null, null);
     Question LevelFour27 = new QuestionNode("Tweedledee and Tweedledum are characters in the movie Pinocchio", "false", 3, null, null);
     Question LevelFour26 = new QuestionNode("Shakespeare provides the first recorded use of over 1500 English words", "true", 1, null, null);
-    Question LevelFour25 = new QuestionNode("The third law of robotics ensures that robots obey all commands from humans", "false", 2, null, null);
+    Question LevelFour25 = new QuestionNode("The third law of robotics ensures that robots obey all commands from humans (true/false)", "false", 2, null, null);
     Question LevelFour24 = new QuestionNode("Peanuts are not a nut.", "true", 1, null, null);
     Question LevelFour23 = new QuestionNode("American football originated in the 1850s", "false", 4, null, null);
     Question LevelFour22 = new QuestionNode("Paul Revere rode on his horse and said “The British are coming.", "false", 1, null, null);
@@ -212,18 +212,18 @@ public class TriviaGameImpl implements TriviaGame {
     Question LevelFour15 = new QuestionNode("Thomas Jefferson and John Adams both died on the Fourth of July.", "true", 4, LevelFour30, LevelFour31);
     Question LevelFour14 = new QuestionNode("Robinson Crusoe was a character invented by one of Shakespeare’s plays", "false", 1, LevelFour28, LevelFour29);
     Question LevelFour13 = new QuestionNode("The largest carbon sink in the world is the ocean", "true", 2, LevelFour26, LevelFour27);
-    Question LevelFour12 = new QuestionNode("Jack Sparton is the name of the pirate in the Disney movie", "false", 1, LevelFour24, LevelFour25);
+    Question LevelFour12 = new QuestionNode("Jack Sparton is the name of the pirate in the Disney movie (true/false)", "false", 1, LevelFour24, LevelFour25);
     Question LevelFour11 = new QuestionNode("Blackbeard was a real English pirate.", "true", 3, LevelFour22, LevelFour23);
     Question LevelFour10 = new QuestionNode("There have been 44 Super Bowls in modern history", "false", 1, LevelFour20, LevelFour21);
     Question LevelFour9 = new QuestionNode("The American Civil War was America’s bloodiest conflicts", "true", 2, LevelFour18, LevelFour19);
     Question LevelFour8 = new QuestionNode("Rocket Arena is Roblox’s oldest game.", "true", 1, LevelFour16, LevelFour17);
     Question LevelFour7 = new QuestionNode("Typically golf balls have less than 300 dimples", "false", 3, LevelFour14, LevelFour15);
-    Question LevelFour6 = new QuestionNode("Julius Caesar was involved with the queen Cleopatra", "true", 1, LevelFour12, LevelFour13);
+    Question LevelFour6 = new QuestionNode("Julius Caesar was involved with the queen Cleopatra (true/false)", "true", 1, LevelFour12, LevelFour13);
     Question LevelFour5 = new QuestionNode("The highest grossing film is Avengers: Endgame", "false", 2, LevelFour10, LevelFour11);
     Question LevelFour4 = new QuestionNode("Soccer is considered the king of sports in the world", "true", 1, LevelFour8, LevelFour9);
-    Question LevelFour3 = new QuestionNode("Egyptian Rulers were known as Pharaohs", "true", 2, LevelFour6, LevelFour7);
+    Question LevelFour3 = new QuestionNode("Egyptian Rulers were known as Pharaohs (true/false)", "true", 2, LevelFour6, LevelFour7);
     Question LevelFour2 = new QuestionNode("The 100 years war actually lasted for less than 100 years", "false", 1, LevelFour4, LevelFour5);
-    Question LevelFourRoot = new QuestionNode("Olympus was the name of the home of the Greek Gods", "true", 1, LevelFour2, LevelFour3);
+    Question LevelFourRoot = new QuestionNode("Olympus was the name of the home of the Greek Gods (true/false)", "true", 1, LevelFour2, LevelFour3);
     this.levels.add(LevelFourRoot);
 
     //Level 5
