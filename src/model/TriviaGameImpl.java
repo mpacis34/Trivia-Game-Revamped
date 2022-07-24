@@ -96,7 +96,7 @@ public class TriviaGameImpl implements TriviaGame {
 
     Question LevelOne31 = new QuestionNode("Seoul is the capital of North Korea (true/false).", "false", 5, null, null);
     Question LevelOne30 = new QuestionNode("Asia is the largest continent in the world.", "true", 1, null, null);
-    Question LevelOne29 = new QuestionNode("Are the five rings on the Olympic flag are interlocking?", "true", 2, null, null);
+    Question LevelOne29 = new QuestionNode("The five rings on the Olympic flag are interlocking (true/false).", "true", 2, null, null);
     Question LevelOne28 = new QuestionNode("Is Mexico south of the United States?", "true", 1, null, null);
     Question LevelOne27 = new QuestionNode("Fish cannot blink", "true", 3, null, null);
     Question LevelOne26 = new QuestionNode("Sacramento is the capital of California", "true", 1, null, null);
@@ -111,7 +111,7 @@ public class TriviaGameImpl implements TriviaGame {
     Question LevelOne17 = new QuestionNode("Thor was the son of the God, Odin", "true", 2, null, null);
     Question LevelOne16 = new QuestionNode("Apples are a fruit", "true", 1, null, null);
     Question LevelOne15 = new QuestionNode("Fruits typically have seeds (true/false)", "true", 4, LevelOne30, LevelOne31);
-    Question LevelOne14 = new QuestionNode("French fries came from France", "false", 1, LevelOne28, LevelOne29);
+    Question LevelOne14 = new QuestionNode("French fries came from France (true/false).", "false", 1, LevelOne28, LevelOne29);
     Question LevelOne13 = new QuestionNode("Male seahorses give birth", "true", 2, LevelOne26, LevelOne27);
     Question LevelOne12 = new QuestionNode("Barack Obama was the 33rd US president", "false", 1, LevelOne24, LevelOne25);
     Question LevelOne11 = new QuestionNode("Mitochondria is the powerhouse of the cell", "true", 2, LevelOne22, LevelOne23);

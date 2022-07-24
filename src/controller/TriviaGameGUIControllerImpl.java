@@ -1,5 +1,7 @@
 package controller;
 
+import java.io.IOException;
+
 import model.TriviaGame;
 import view.TriviaGameGUIView;
 import view.TriviaGameView;
@@ -59,8 +61,15 @@ public class TriviaGameGUIControllerImpl implements TriviaGameGUIController {
   }
 
   @Override
-  public void restartGame() {
-    this.model.restartGame();
+  public void restartGame()  {
+    try{
+      this.model.restartGame();
+      this.view.renderMessage("Please select a level");
+    }
+    catch(IOException e) {
+      return;
+    }
+
   }
 
 

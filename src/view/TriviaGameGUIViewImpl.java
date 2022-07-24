@@ -38,7 +38,7 @@ public class TriviaGameGUIViewImpl extends JFrame implements TriviaGameGUIView {
    * Constructor for the GUI view of Trivia Game.
    */
   public TriviaGameGUIViewImpl() {
-    super();
+    super("Trivia Game Revamped");
 
     this.levelSelected = false;
     JPanel operationPanel;
@@ -88,6 +88,7 @@ public class TriviaGameGUIViewImpl extends JFrame implements TriviaGameGUIView {
     messageDisplay.setEnabled(false);
     messageDisplay.setLineWrap(true);
     messageDisplay.setWrapStyleWord(true);
+    messageDisplay.setText("Please select a level.");
     this.add(messageDisplay);
     JScrollPane messageScroll = new JScrollPane(messageDisplay,
             JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED, JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);

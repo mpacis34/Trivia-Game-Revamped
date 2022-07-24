@@ -1,5 +1,6 @@
 package controller;
 
+import java.io.IOException;
 import java.util.Random;
 
 /**
@@ -61,7 +62,7 @@ public class FeaturesImpl implements Features{
   }
 
   @Override
-  public void restartGame() {
+  public void restartGame()  {
     this.controller.restartGame();
   }
 
